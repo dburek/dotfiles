@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# But not these files...
+!.gitignore
+!.gitconfig
+
+.vim/*
+!.vim/autoload/*
+!.vimrc

@@ -1,0 +1,15 @@
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	logo = log --oneline
+[diff]
+	tool = winmerge
+[difftool]
+	prompt = false
