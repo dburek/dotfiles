@@ -9,6 +9,7 @@
 	ci = commit
 	st = status
 	logo = log --oneline
+	logog = log --oneline --graph
 [diff]
 	tool = winmerge
 [difftool]
