@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/seoul256.vim'
 Plug 'preservim/nerdtree'
-Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
