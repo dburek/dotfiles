@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-"Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/seoul256.vim'
 "Plug 'junegunn/vim-easy-align'
 "Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'preservim/nerdtree'
@@ -15,3 +15,9 @@ autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | e
 
 " Exit Vim if NERDTree is the only window remaining in the only tab. 
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" seoul256 (dark): "
+" 	Range:   233 (darkest) ~ 239 (lightest) "
+" 	Default: 237
+let g:seoul256_background = 235
+colo seoul256
