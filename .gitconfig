@@ -10,8 +10,8 @@
 	st = status
 	logo = log --oneline
 	logog = log --oneline --graph
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
 	cia = commit --allow-empty
+	lg = log --color --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
 [diff]
 	tool = winmerge
 [difftool]
