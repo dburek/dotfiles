@@ -10,10 +10,14 @@ Plug 'tpope/vim-commentary'
 
 call plug#end()
 
-" general
-filetype plugin indent on
+" " general
 syntax on
-:set number
+set autoindent
+set number
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 " Start NERDTree. If a file is specified, move the cursor to its window. 
 autocmd StdinReadPre * let s:std_in=1 
