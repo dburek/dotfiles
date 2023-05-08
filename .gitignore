@@ -5,6 +5,8 @@
 !.gitignore
 !.gitconfig
 
+!.bashrc
+
 .vim/*
 !.vim/autoload/*
 !.vimrc
