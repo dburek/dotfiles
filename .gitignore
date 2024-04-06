@@ -1,14 +1,18 @@
 # Ignore everything by default
-*
+/*
 
 # But not these files...
+!.bashrc
+
+!.cmder.xml
+
 !.gitignore
 !.gitconfig
 
-!.bashrc
+!.tmux
 
-.vim/*
+!.vim/*
 !.vim/autoload/*
 !.vimrc
 
-!.cmder.xml
+# ...even files to be tracked are in subdirectories
